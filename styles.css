@@ -28,7 +28,7 @@ body{
     margin-top: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     
     
 
@@ -36,11 +36,13 @@ body{
 .card{
     width: 340px;
     min-width: 300px;
+    max-width: 500px;
     background-color: var(--card-BG);
     padding: 5px;
     margin: 0 5px;
     min-height: 500px;
     border-radius: 10px;
+    box-shadow: 0px 10px 28px 40px #0b1522 ;
     
     
 
@@ -109,18 +111,28 @@ body{
     display:flex;
     width: 90%;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-top: 1px solid white;
+    border-top: 0.1rem solid rgba(190, 190, 190, 0.205);
     padding-top: 20px;
+}
+.owner-info p{
+    font-size: 1.6rem;
+    color: hsl(215, 51%, 70%);
+    margin-top: 2%;
+}
+#name{
+    color: var(--white);
 }
 
 .owner-info img{
     width: 40px;
     border: 2px solid white;
     border-radius: 100%;
+    margin-right: 8%;
+    vertical-align: middle;
 }
 
 
