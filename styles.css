@@ -79,20 +79,42 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    font-size: 1.6rem;
     
 }
 .price p{
     
 }
+#eth{
+    margin-right: 5px;
+    background-image: url('./images/icon-ethereum.svg');
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    
 
 
+}
+
+#eth-p{
+    color: var(--cyan);
+    font-weight: 400;
+    
+}
+#clock{
+    vertical-align: middle;
+    margin-right: 4px;
+}
 
 .owner-info{
-    display: flex;
+    display:flex;
+    width: 90%;
+    margin: 0 auto;
     justify-content: center;
+    align-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-top: 1px solid white;
+    padding-top: 20px;
 }
 
 .owner-info img{
